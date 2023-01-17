@@ -24,22 +24,22 @@ const questions =[
       type: 'input',
       name: 'contributions',
       message: 'what are the guidelines for contributions?',
-    }
+    },
     {
       type: 'input',
       name: 'installation',
       message: 'what steps are needed for installation?',
-    }
+    },
     {
       type:'input',
       name: 'usage',
       message: 'what will the user experience be?',
-    }
+    },
     {
       type:'input',
       name:'tests',
       message:'describe how you go about testing this application.',
-    }
+    },
 
   ]
 

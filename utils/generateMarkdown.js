@@ -6,9 +6,9 @@ function renderLicenseBadge(license) {
   if(licenseType === 'MIT') {
     myLicense =`![license](https://img.shields.io/badge/license-MIT-brightgreen)` //Where do i get the license badges?
   } else if (licenseType === 'Apache License 2.0') {
-    myLicense =`![license]()`
+    myLicense =`![license](https://img.shields.io/badge/license-Apache%202.0-blue)`
   } else if (licenseType === 'Mozilla Public License 2.0') {
-    myLicense = `![license]()`
+    myLicense = `![license](https://img.shields.io/badge/license-Mozilla%20Public%20License%202.0-orange)`
   } else {myLicense =``}
   return myLicense 
 };
@@ -27,7 +27,7 @@ ${renderLicenseBadge(data.license)}
 
 ## Description
 
-${data.description}
+${data.purpose}
 
 ## Table of Contents (Optional)
 
@@ -40,6 +40,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Contributions](#contributions)
 
 ## Installation
+${data.installation}
 
 ## Usage 
 ${data.usage}
